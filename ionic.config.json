@@ -1,0 +1,7 @@
+{
+  "name": "sowilo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
