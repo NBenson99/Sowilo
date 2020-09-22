@@ -1,0 +1,45 @@
+.decor {
+    background: #b1dde9;
+    left: 240px;
+    height: 590px;
+    position: absolute;
+}
+
+img {
+    width: 100px;
+    display: block;
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.ion-input {
+    /* ARRUMAR isso aqui */
+    color: #1b4581;
+    border-width: 50px 50px 50px 50px;
+    position: relative;
+    width: 220px;
+    
+}
+
+.ion-input:focus{
+    color: #b1dde9;
+}
+
+.link{
+    color: #1b4581 ;
+    font-size: 12px;
+    left: 20px;
+    position: relative;
+    text-decoration: underline;
+}
+
+.button {
+    color: #1b4581;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    left: 30px;
+    width: 150px;
+    height: 40px;
+}
