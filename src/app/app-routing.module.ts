@@ -5,7 +5,7 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: 'dorientation',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
