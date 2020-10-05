@@ -1,9 +1,29 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>hypertensionmenu</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+
+  <div class="box"></div>
+
+  <div class="title">
+    <h1>Hipertensão</h1>
+  </div>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="menu" href="phorientation">Orientação</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="menu" href="pressure" id="ps">Pressão sanguínea</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <div class="exit">
+    <ion-router-link href="#" slot="end" color="gray">Sair</ion-router-link>
+  </div>
 
 </ion-content>

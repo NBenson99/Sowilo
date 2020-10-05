@@ -18,18 +18,21 @@ img {
     color: #1b4581;
     position: relative;
     width: 220px;
-}
-
-ion-checkbox{
-
+    font-size: 17px;
+    
 }
 
 .link {
     font-size: 12px;
-    left: 20px;
+    left: 60px;
     position: relative;
     text-decoration: underline;
     height: 15px;
+}
+
+#ion-tg-0-lbl{
+    color: gray;
+    font-size: 13px;
 }
 
 .button {
@@ -41,7 +44,7 @@ ion-checkbox{
     height: 40px;
     margin-left: 30px;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .add {

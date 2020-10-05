@@ -1,9 +1,35 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>diabetesmenu</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+
+  <div class="box"></div>
+
+  <div class="title">
+    <h1>Diabetes</h1>
+  </div>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="menu" href="dorientation">Orientação</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="menu" href="glycemic" >Glicemia</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button class="menu" href="insuline">Insulina</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <div class="exit">
+    <ion-router-link href="#" slot="end" color="gray">Sair</ion-router-link>
+  </div>
 
 </ion-content>
