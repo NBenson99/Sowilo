@@ -11,12 +11,12 @@
     <ion-row>
       <ion-col>
         <ion-item class="input" lines="none">
-          <ion-input type="email" placeholder="E-mail"></ion-input>
+          <ion-input type="email" placeholder="E-mail" [(ngModel)]="userLogin.email"></ion-input>
         </ion-item>
       </ion-col>
       <ion-col>
         <ion-item class="input" style="flex: 3 2" lines="none">
-          <ion-input type="password" placeholder="Senha"></ion-input>
+          <ion-input type="password" placeholder="Senha" [(ngModel)]="userLogin.password"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -24,7 +24,7 @@
 
       <ion-row>
         <ion-col class="link">
-          <ion-router-link color="primary" href="password">Recuperar senha
+          <ion-router-link color="primary" [router-link]="['/password']">Recuperar senha
           </ion-router-link>
         </ion-col>
       </ion-row>
@@ -39,7 +39,7 @@
 
     <ion-row>
       <ion-col>
-        <ion-button class="button" expand="block" href="menu">
+        <ion-button class="button" expand="block" (click)="login()" [router-link]="['/menu']" >
           Entrar
         </ion-button>
       </ion-col>

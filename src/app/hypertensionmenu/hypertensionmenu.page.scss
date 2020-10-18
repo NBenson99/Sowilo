@@ -27,13 +27,12 @@ ion-grid {
     height: 100px;
     font-size: 17px;
     background-color: #b1dde9;
+    span.ps{
+        font-size: 15px;
+        display:block;
+    }
 }
 
-/* Não funciona
-diminuir a letra */
-.menu #ps{
-    font-size: 17px;
-}
 
 .exit {
     color: gray;
